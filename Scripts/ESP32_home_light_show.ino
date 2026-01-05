@@ -142,7 +142,7 @@ void setup() {
   
   reattachBuzzer();
   ring.begin(); ring.show();
-  WiFi.begin("Vory_EXT", "Pazout2604");
+  WiFi.begin("WIFI", "PASSWORD"); //HERE IS WIFI PASSWORD!!!!!!!!!
 
   server.on("/api/stat", HTTP_GET, [](AsyncWebServerRequest *r){
     String j="{ \"on\":"+String(sysOn)+",\"m\":"+String(currentMode)+",\"hr\":"+String(hwRelay)+",\"hl\":"+String(hwLaser)+",\"hri\":"+String(hwRing)+",\"hb\":"+String(hwBuzz)+"}";
