@@ -144,5 +144,5 @@ When I had the case finished, I spent some time working on **GitHub**. I had to 
 - Circuit diagram (Info.md ​​and CD)
 - Photos
 
-![image](
+![image](https://blueprint.hackclub.com/user-attachments/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NzQyNTYsInB1ciI6ImJsb2JfaWQifX0=--7bce5bc3861346372c1963c0615a452fb0d23ee3/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOlsyMDAwLDIwMDBdLCJjb252ZXJ0Ijoid2VicCIsInNhdmVyIjp7InF1YWxpdHkiOjgwLCJzdHJpcCI6dHJ1ZX19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--0f85faa91c373105a0f317054e965c1f47e93a37/image.png)
 
