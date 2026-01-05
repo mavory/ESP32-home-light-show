@@ -47,6 +47,6 @@ Here is a view of the top and bottom of the case:
 
 ## There is the final video of how it works!
 
-_Here is a youtube video where you can see how it works:_ [Link](.... add this!!!!)
+_Here is a youtube video where you can see how it works:_ [Link](https://www.youtube.com/watch?v=FMIBLFgBRWg)
 
 ![image](https://blueprint.hackclub.com/user-attachments/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NzQxNTMsInB1ciI6ImJsb2JfaWQifX0=--d712cbdc21cf348626c334a65f3a5a4c1fc1d5da/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemVfdG9fbGltaXQiOlsyMDAwLDIwMDBdLCJjb252ZXJ0Ijoid2VicCIsInNhdmVyIjp7InF1YWxpdHkiOjgwLCJzdHJpcCI6dHJ1ZX19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--15ca3815f01a5683e19ea0585d2eef9af9e441d7/IMG_20260105_200620.jpg)
