@@ -45,6 +45,47 @@ Here is a view of the top and bottom of the case:
 
 ![image](https://blueprint.hackclub.com/user-attachments/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NzM4OTUsInB1ciI6ImJsb2JfaWQifX0=--89f68f30199aad29996fbc9abb73c9edfc49b0e7/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOlsyMDAwLDIwMDBdLCJjb252ZXJ0Ijoid2VicCIsInNhdmVyIjp7InF1YWxpdHkiOjgwLCJzdHJpcCI6dHJ1ZX19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--0f85faa91c373105a0f317054e965c1f47e93a37/image.png)
 
+# Wiring Diagram
+
+![image](https://blueprint.hackclub.com/user-attachments/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NzQxMDAsInB1ciI6ImJsb2JfaWQifX0=--851178d54ed1b3e2f80226b502ffb29c2f320760/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fbGltaXQiOlsyMDAwLDIwMDBdLCJjb252ZXJ0Ijoid2VicCIsInNhdmVyIjp7InF1YWxpdHkiOjgwLCJzdHJpcCI6dHJ1ZX19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--0f85faa91c373105a0f317054e965c1f47e93a37/image.png)
+
+### Components:
+- **ESP32** (Powered via USB or 5V Vin)
+- **Touch Sensor (TTP223):**
+  - SIG: GPIO 4
+  - VCC: 3.3V / 5V
+  - GND: GND
+
+### Outputs:
+- **Relay (Strip Control):** GPIO 23
+- **Laser Diode:** GPIO 22
+- **Passive Buzzer:** GPIO 17
+
+### Lights:
+- **NeoPixel Ring (24 LEDs):**
+  - Data: GPIO 21
+  - VCC: 5V 
+  - GND: GND
+- **RGB LED:**
+  - Red Pin: GPIO 19
+  - Green Pin: GPIO 18
+  - Blue Pin: GPIO 5
+  - GND: GND
+- **LED strips:**
+  - 5V: COM (Relay) ---> 5V external (NO on relay)
+  - GND: GND
+  
+# Libraries:
+
+```
+- Arduino.h
+- WiFi.h
+- ESPAsyncWebServer.h 
+- AsyncTCP.h
+- Adafruit_NeoPixel.h
+- LittleFS.h
+```
+
 ## There is the final video of how it works!
 
 _Here is a youtube video where you can see how it works:_ [Link](https://www.youtube.com/watch?v=FMIBLFgBRWg)
